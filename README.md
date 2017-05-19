@@ -22,3 +22,13 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+add  a new user >>
+ User.create(email:'a@a.com', password:'changeme', password_confirmation:'changeme')
+
+#from new terminal
+curl http://localhost:3000/home<!DOCTYPE html>
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+curl -X POST -d email="a@a.com" -d password="changeme" http://localhost:3000/auth_user
+
+
+
